@@ -1,0 +1,166 @@
+#wrapper{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+} 
+ #header1 {
+    height:230px;
+	position:relative;
+	background-image:url("Images/naslov1.png");
+}
+
+   
+   
+
+#header {
+	width:960px;
+    height:70px;
+	background-image:url("Images/header.png"); 
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	   }
+	   
+  a {
+   	text-decoration:none;
+	color:#fab703;
+	 text-align:center;
+  }
+  
+  a:hover 
+   { 
+   color: #555555; 
+  }
+
+       #box1{
+         width:240px;
+         height:70px;
+         float:left;
+        }
+       #box2{
+         width:240px;
+         height:70px;
+         float:left;
+        }
+       #box3{
+        width:240px;
+        height:70px;
+        float:left;
+        }
+      #box4{
+       width:240px;
+       height:70px;
+       float:left;
+        }
+
+#main {
+	width:740px;
+    height:780px;
+	float:left;
+	background-image:url("Images/kamion.png.");
+	text-align:justify;
+      }
+	  
+#mainmeh {
+	width:740px;
+    height:780px;
+	float:left;
+	background-image:url("Images/kopac.png.");
+	text-align:justify;
+      }
+	  #tabela{
+		text-align:center;
+        position:relative;
+        left: 70px;			
+	  }
+	  .naslov {
+		   text-align:center;
+		   background-color:#dee932;
+	  }
+	  .svojstva{
+		background-color:#84e932;  
+	  }
+
+#maindj {
+	width:740px;
+    height:780px;
+	float:left;
+	background-image:url("Images/bager.png.");
+	text-align:justify;
+	   }
+	   
+#mainkon {
+  	width:740px;
+    height:780px;
+	float:left;
+	background-image:url("Images/kamion2.png.") 
+	
+	}
+		 #mapa{
+		   	float:right;
+			padding:0 20px 0 20px;
+		 }
+		 
+		 
+			
+#sidebar {
+	width:220px;
+    height:780px;
+	float:right;
+	position:relative;
+}
+      #boxs1 {
+		  width:220px;
+          height:380px;
+		  position:absolute;
+		  border-top-right-radius:40px;
+		  border-top-left-radius:40px;
+		  border-bottom-right-radius:40px;
+		  border-bottom-left-radius:40px;
+		  background-image:url("Images/boxs1.png");
+		  font-size: 15px;
+		  font-family: ”Times New Roman”, Times, Georgia, sans-serif;
+		  color: #C8F734;
+		  font-style:italic;
+		  text-align:center;
+		     }
+			 .emailto{
+				 color:#C8F734;
+			        }
+		
+	 #boxs2 {
+		  width:220px;
+          height:380px;
+		  position:absolute;
+		  top:400px;
+		  border-top-right-radius:40px;
+		  border-top-left-radius:40px;
+		  border-bottom-right-radius:40px;
+		  border-bottom-left-radius:40px;
+		  background-image:url("Images/boxs2.png");
+		  font-size: 15px;
+		  font-family: ”Times New Roman”, Times, Georgia, sans-serif;
+		  color: #C8F734;
+		  font-style:italic;
+		  text-align:center;
+		  }
+		   #description {
+			background-color: #fdedc2;   
+		   } 
+		 
+		 
+ 
+	
+#footer{
+height:50px;
+background-image:url("Images/footer.png");
+clear:both;
+text-align:center;
+font-size: 23px;
+}
+
+
+
+
+
+
+

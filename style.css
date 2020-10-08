@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-image: url(images/sky.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	}
+
+body {
+	margin: 0;
+	padding: 0;
+	}
+	
+ a:link,
+ a:visited {
+ color:#F80404;
+ text-decoration:none;
+  }
+ a:hover {
+ text-decoration:underline;
+ }
+ a:active {
+	color:#AA0003;
+	}
+
+#wrapper {
+	width: 960px;
+	background-color: #F9F9F9;
+	margin: 30px auto;
+	padding: 15px;
+	}
+	
+#header {
+	background:#BDBBBB;
+	margin-bottom:10px;
+	overflow:hidden;
+	}
+
+ #logo {
+	float:left;
+	}
+ #slogan {
+	float: right;
+	 }
+
+	
+#nav {
+	background:#E06B2E;
+	height:40px;
+	margin-bottom:15px;
+	}
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#nav ul li {
+	float:left;
+	}
+#nav ul li a {
+	padding:10px 50px;
+	height:20px;
+	display:block;
+	}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#4B3B25;
+	text-decoration:none;
+	}
+
+#nav ul li a:hover {
+	background:#D7BA8B;
+	color:#4B3B25;
+	text-decoration:none;
+	}
+
+#nav ul li a:active {
+	background:#88713E;
+	}
+	
+.social {
+	float:right;
+	height:30px;
+	padding:3px 10px;
+	font-size:30px;
+	}
+	
+.social a:link,
+.social a:visited {
+ color:#624525;
+ text-decoration:none;
+  }
+.social a:hover {
+ color:#FFF6F6;
+ text-decoration:underline;
+ }
+.social a:active {
+	color:#AA0003;
+	}
+
+	
+#main {
+	background-image:url("images/welcome.png");
+	background-repeat: repeat;
+	float:left;
+	overflow:hidden;
+	font-family: 'Lemonada', cursive;
+	width:960px; 
+	}
+
+#maingal {
+	background-image: url("images/galpoz.png");
+	background-repeat: no-repeat;
+	float: left;
+	overflow: hidden;
+	font-family: 'Lemonada', cursive;
+	width: 960px;
+	background-size: cover;
+	background-position: center top;
+	}
+
+#maindip {
+	background-image: url("images/cert.png");
+	background-repeat: no-repeat;
+	float: left;
+	overflow: hidden;
+	font-family: 'Lemonada', cursive;
+	width: 960px;
+	background-size: cover;
+	background-position: center top;
+	}
+	
+#maincv{
+	background-image: url("images/cvslika.png");
+	background-repeat: no-repeat;
+	float: left;
+	overflow: hidden;
+	font-family: 'Noto Sans KR', ;
+	width: 960px;
+	background-size: cover;
+	}
+	
+#sidebar {
+	width: 170px;
+	height: 100px;
+	float: right;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: lighter;
+	font-size: x-small;
+    background:#B8B8B8;
+	}
+	
+#footer {
+	background:#BDBBBB;
+	clear:both;
+	padding:10px;
+	text-align:center;
+	}
+	
+#footer p {
+	margin:0;
+	}
+img {max-width:100%;}
+	
+
+@media screen and (min-width:1024) and (max-width:1260px) {
+	#wrapper {
+		width:960px;
+		}
+	
+	#main {
+		width:700px;
+		background-image:url("images/welcome2.png");
+	background-repeat: repeat;
+	float:left;
+	overflow:hidden;
+	font-family: 'Lemonada', cursive;
+	}
+	#maingal {
+		width:700px;
+		}
+	#maincv {width:700px;
+	}
+	}
+	
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+	#wrapper {
+		width:700px;
+		}
+	
+	#main {
+	background-image:url("images/welcome3.png");
+	width: 700px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	box-sizing: border-box;	
+		}
+	#maingal {width: 700px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	}
+	#maincv {width: 700px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	}
+	}
+	
+@media screen and (max-width:767px) {
+	#wrapper {
+		width:80%;
+		}
+	
+	#main {
+		width:auto;
+		float:none;
+		background-image:url("images/welcome5.png");
+		}
+	
+	#maingal {width:auto;
+		      float:none;
+			  }
+	#maincv {width:auto;
+		     float:none;
+			 }	
+	#logo {
+		float:none;
+		text-align:center;
+		border-bottom:2px solid rgba(255,255,255,0.50);
+		}
+	#slogan {
+		float:none;
+		text-align:center;
+		}
+	#nav {
+		height:auto;
+		padding:15px;
+		}
+	#nav ul li {
+		float:none;
+		}
+	#nav ul li a {
+		padding:5px 10px;
+		height:auto;
+		}
+	
+	#nav ul li ul {
+		background-color:transparent;
+		position:relative;
+		left:0;
+		top:0;
+		width:auto;
+		display:block;
+		padding-left:15px;
+		}
+	
+	#nav ul li ul li ul {
+		lefz:0;
+		top:0;
+		}
+		
+	.social {
+		float:none;
+		text-align:center;
+		font-size:35px;
+		height:auto;
+		border-top:1px solid rgba(255,255,255,0.26);
+		margin-top:20px;
+		}		
+	}
+	@media screen and (max-width:500px) {
+		#sidebar {
+		width:auto;
+		}
+		#main {
+		width:auto;
+		float:none;
+		background-image:url("images/welcome4.png");
+		}
+		}
